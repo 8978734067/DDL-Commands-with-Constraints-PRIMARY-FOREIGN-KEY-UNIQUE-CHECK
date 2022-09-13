@@ -1,0 +1,32 @@
+1. Create a table called EMP with the following structure.
+Name Type
+---------- ----------------------
+EMPNO NUMBER(6)
+ENAME VARCHAR2(20)
+JOB VARCHAR2(10)
+DEPTNO NUMBER(3)
+SAL NUMBER(7,2)
+Allow NULL for all columns except ename and job.
+2. Add a column experience to the emp table and Experience numeric null allowed.
+3. Create dept table with the following structure.
+Name Type
+------------ ---------------------
+DEPTNO NUMBER(2)
+DNAME VARCHAR2(10)
+LOC VARCHAR2(10)
+Deptno as the primarykey
+4. Create the emp1 table with ename and empno, add constraints to check the empno value
+while entering (i.e) empno > 100.
+5. Create a table Emp with fields such as EmpNo number(5), EName VarChar(15), Job
+Char(10) constraint un unique and DeptNo number(3) CONSTRAINT FKey2
+REFERENCES DEPT(DeptNo).
+6. Create a table student with fields
+regno number (6),
+mark number (3) and add constraint to check the (mark >=0 and mark <=100).
+Alter the table student and add constraint to check (length(regno<=4).
+7. Create a table cust with fields (custid number(6) not null, name char(10).
+Alter the table cust and modify the ‘name’ column as not null.
+8. Create a table cust with fields such as custid number(6) constraint unique, name char(10).
+Alter the table cust and add a constraint as unique key for custid.
+9. Create a table stud with fields such as regno number(6) constraint primary key, name
+char(20).
